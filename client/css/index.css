@@ -1,0 +1,199 @@
+
+@font-face {
+  font-family: 'ShareTechMono-Regular';
+  src: url('../fonts/ShareTechMono-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url('../fonts/NotoSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'NotoSans-Bold';
+  src: url('../fonts/NotoSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'NotoSans-Italic';
+  src: url('../fonts/NotoSans-Italic.ttf');
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F1;
+  text-rendering: optimizelegibility;
+}
+
+
+#top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 74px;
+  z-index: 10000;
+  border-bottom: 1px solid transparent;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+  font-family: ShareTechMono-Regular;
+  background-color: white;
+}
+
+#top-bar .left {
+  color: black;
+  float: left;
+  margin-top: 8px;
+  margin-left: 2em;
+}
+
+#top-bar .left .title {
+  font-size: 2em;
+}
+
+#top-bar .left .sudo {
+  font-size: 1em;
+  color: #AA0000;
+  padding-left: 1em;
+}
+
+#top-bar .right {
+  color: black;
+  float: right;
+  margin-top: 8px;
+  margin-right: 1em;
+}
+
+#top-bar .right .credit-container {
+
+}
+
+#top-bar .right .label {
+  float: right;
+  font-size: 1em;
+}
+
+#top-bar .right .credit {
+  font-size: 2em;
+}
+
+.content {
+  background-color: white;
+  margin-top: 100px;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ECECEC #ECECEC #E2E2E2;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.content-left {
+  width: 60%;
+  float: left;
+}
+
+
+.content .product-visual {
+  padding: 0 15px;
+}
+
+.content .product-visual img {
+  width: 100%;
+}
+
+.content .content-right {
+  width: 40%;
+  float: left;
+}
+
+.content .product-summary {
+  font-family: NotoSans-Regular;
+  background-color: white;
+  padding: 6px 12px 6px 12px;
+  border-radius: 5px;
+  border-width: 6px;
+  border-color: rgba(245, 215, 215, 1);
+  border-style: solid;
+  margin-bottom: 28px;
+  font-size: 14px;
+}
+
+.product-summary h3 {
+  font-family: NotoSans-Bold;
+  margin: 4px 0;
+}
+
+#bottom-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+  background-color: white;
+  border-top: 1px solid #CCC;
+}
+
+.home-button {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 150px;
+  width: 150px;
+  margin-left: -75px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.home-button .home-icon {
+  font-size: 80px;
+  color: hsla(0,50%,50%,.5);
+  font: bold 72px/72px sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 0 3px 7px white, 0 0 0 #000; /* The first color must match the background */
+}
+
+.home-button .subtitle {
+  font-family: NotoSans-Bold;
+  color: #b57474;
+}
+
+#bottom-bar .browse-by {
+  font-family: NotoSans-Bold;
+  color: #b57474;
+  text-align: center;
+}
+
+#bottom-bar .left {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+#bottom-bar .right {
+  width: 40%;
+  height: 100%;
+  float: right;
+
+}
+
+#bottom-bar .lricon {
+  position: relative;
+  top: 10px;
+  font-size: 80px;
+  color: hsla(0,50%,50%,.5);
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 0 3px 7px white, 0 0 0 #000;
+}
+
+
+
+#bottom-bar .category-icon {
+  font-size: 70px;
+  line-height: 106px;
+}
